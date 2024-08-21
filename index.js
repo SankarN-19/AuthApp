@@ -18,5 +18,5 @@ app.use("/api/v1", user);
 
 //activate
 app.listen(PORT, () => {
-  console.log(`App is listening at ${PORT}`);
+  console.log(`App is running at ${PORT}`);
 });
